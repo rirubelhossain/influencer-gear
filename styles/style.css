@@ -154,7 +154,7 @@ nav ul{
 }
 .deature-img img{
     border-radius: 7px;
-background: url("/images/gear.png"), lightgray 50% / cover no-repeat;
+/* background: url("/images/gear.png"), lightgray 50% / cover no-repeat; */
 }
 .featured-title{
     color: #0A0826;
