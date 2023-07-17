@@ -143,9 +143,33 @@ nav ul{
 
 }
 
-/* color: var(--gray-50, #787885);
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 143%; /* 20.02px */
+/* Featured section start from here */
+.Featured{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.deature-img img{
+    border-radius: 7px;
+background: url("/images/gear.png"), lightgray 50% / cover no-repeat;
+}
+.featured-title{
+    color: #0A0826;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.featured-des{
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+ 
+}
+.featured-btn{
+    color: #FFFFFF;
+    background: #E02C6D;
+    border: 0;
+    padding: 10px 24px;
+}
