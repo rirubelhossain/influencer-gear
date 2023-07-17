@@ -81,3 +81,60 @@ nav ul{
 }
 
 
+/* Brand section */
+.brand{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 150px;
+
+    
+}
+.brand img{
+    gap: 20px;
+}
+.box img{
+    width: 214px;
+}
+.box-1{
+    /* border: 3px solid tomato; */
+    /* width: 300px; */
+    /* border-radius: 2px solid tomato; */
+    /* width: auto; */
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box-title{
+    color: #18191f;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.box-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.box-des{
+    color: #787878;
+    font-size: 0.81rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* color: var(--gray-50, #787885);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 143%; /* 20.02px */
